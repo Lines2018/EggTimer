@@ -13,6 +13,9 @@
 		1D41128E29841EDF00BC325E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D41128C29841EDF00BC325E /* Main.storyboard */; };
 		1D41129029841EE000BC325E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D41128F29841EE000BC325E /* Assets.xcassets */; };
 		1D41129329841EE000BC325E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D41129129841EE000BC325E /* LaunchScreen.storyboard */; };
+		1D41129B2984201000BC325E /* ViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D41129A2984201000BC325E /* ViewControllerRepresentable.swift */; };
+		1D41129D298427CC00BC325E /* EggView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D41129C298427CC00BC325E /* EggView.swift */; };
+		1D41129F29842B3600BC325E /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D41129E29842B3500BC325E /* alarm_sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		1D41128F29841EE000BC325E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D41129229841EE000BC325E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D41129429841EE000BC325E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D41129A2984201000BC325E /* ViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		1D41129C298427CC00BC325E /* EggView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggView.swift; sourceTree = "<group>"; };
+		1D41129E29842B3500BC325E /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				1D41128629841EDF00BC325E /* AppDelegate.swift */,
 				1D41128829841EDF00BC325E /* SceneDelegate.swift */,
 				1D41128A29841EDF00BC325E /* ViewController.swift */,
+				1D41129C298427CC00BC325E /* EggView.swift */,
+				1D41129A2984201000BC325E /* ViewControllerRepresentable.swift */,
 				1D41128C29841EDF00BC325E /* Main.storyboard */,
 				1D41128F29841EE000BC325E /* Assets.xcassets */,
 				1D41129129841EE000BC325E /* LaunchScreen.storyboard */,
 				1D41129429841EE000BC325E /* Info.plist */,
+				1D41129E29842B3500BC325E /* alarm_sound.mp3 */,
 			);
 			path = EggTimer;
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			files = (
 				1D41129329841EE000BC325E /* LaunchScreen.storyboard in Resources */,
 				1D41129029841EE000BC325E /* Assets.xcassets in Resources */,
+				1D41129F29842B3600BC325E /* alarm_sound.mp3 in Resources */,
 				1D41128E29841EDF00BC325E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D41129D298427CC00BC325E /* EggView.swift in Sources */,
 				1D41128B29841EDF00BC325E /* ViewController.swift in Sources */,
+				1D41129B2984201000BC325E /* ViewControllerRepresentable.swift in Sources */,
 				1D41128729841EDF00BC325E /* AppDelegate.swift in Sources */,
 				1D41128929841EDF00BC325E /* SceneDelegate.swift in Sources */,
 			);
